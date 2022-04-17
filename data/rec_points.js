@@ -1,0 +1,32 @@
+export const recPoints = [
+    {
+        name: "Botellon Lince",
+        address: "Av. Oscar R. Benavides 300, Cercado de Lima 1508",
+        district: "Lince",
+        province: "Lima",
+        department: "Lima",
+        country: "Perú",
+        imgPath: "../images/direccion1.png",
+        link: "https://www.google.com/",
+    },
+    {
+        name: "Quatro Patas Lince",
+        address: "Av. Oscar R. Benavides 300, Cercado de Lima 1508",
+        district: "Lince",
+        province: "Lima",
+        department: "Lima",
+        country: "Perú",
+        imgPath: "../images/direccion1.png",
+        link: "https://www.google.com/",
+    },
+    {
+        name: "Miraflores Recicla",
+        address: "Av. Larco 400 – Miraflores.",
+        district: "Miraflores",
+        province: "Lima",
+        department: "Lima",
+        country: "Perú",
+        imgPath: "../images/direccion1.png",
+        link: "https://www.google.com/",
+    },
+];

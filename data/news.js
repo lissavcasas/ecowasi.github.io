@@ -1,0 +1,88 @@
+export const news = [
+    {
+        title: "Se realizó campaña 'No me dejes en la playa.'",
+        content: "Con la ayuda de varios voluntarios, logramos conseguir recolectar más de 42 kilos de botellas de plástico y tapitas",
+        date: "Febrero 18, 2022",
+        imgPath: "../images/botellas_limpias.png",
+        link: "https://www.google.com/",
+    },
+    {
+        title: "El taller “Aprende a segregar tu basura” ¡Fue un éxito!.",
+        content: "Varios padres de familia se acercaron con sus pequeños para enseñarles la importancia de reciclar.",
+        date: "Febrero 22, 2022",
+        imgPath: "../images/ninos.png",
+        link: "https://www.google.com/",
+    },
+    {
+        title: "Los domingos son de 'Visítame para salir a pasear'.",
+        content: "Acércate todos los domingos de 10am a 6pm para visitar a los peluditos y sacarlos a pasear.Tu tiempo es una donación muy valiosa.",
+        date: "Marzo 6, 2022",
+        imgPath: "../images/perro.png",
+        link: "https://www.google.com/",
+    },
+    {
+        title: "Se realizó campaña 'No me dejes en la playa.'",
+        content: "Con la ayuda de varios voluntarios, logramos conseguir recolectar más de 42 kilos de botellas de plástico y tapitas",
+        date: "Febrero 18, 2022",
+        imgPath: "../images/botellas_limpias.png",
+        link: "https://www.google.com/",
+    },
+    {
+        title: "El taller “Aprende a segregar tu basura” ¡Fue un éxito!.",
+        content: "Varios padres de familia se acercaron con sus pequeños para enseñarles la importancia de reciclar.",
+        date: "Febrero 22, 2022",
+        imgPath: "../images/ninos.png",
+        link: "https://www.google.com/",
+    },
+    {
+        title: "Los domingos son de 'Visítame para salir a pasear'.",
+        content: "Acércate todos los domingos de 10am a 6pm para visitar a los peluditos y sacarlos a pasear.Tu tiempo es una donación muy valiosa.",
+        date: "Marzo 6, 2022",
+        imgPath: "../images/perro.png",
+        link: "https://www.google.com/",
+    },
+    {
+        title: "Se realizó campaña 'No me dejes en la playa.'",
+        content: "Con la ayuda de varios voluntarios, logramos conseguir recolectar más de 42 kilos de botellas de plástico y tapitas",
+        date: "Febrero 18, 2022",
+        imgPath: "../images/botellas_limpias.png",
+        link: "https://www.google.com/",
+    },
+    {
+        title: "El taller “Aprende a segregar tu basura” ¡Fue un éxito!.",
+        content: "Varios padres de familia se acercaron con sus pequeños para enseñarles la importancia de reciclar.",
+        date: "Febrero 22, 2022",
+        imgPath: "../images/ninos.png",
+        link: "https://www.google.com/",
+    },
+    {
+        title: "Los domingos son de 'Visítame para salir a pasear'.",
+        content: "Acércate todos los domingos de 10am a 6pm para visitar a los peluditos y sacarlos a pasear.Tu tiempo es una donación muy valiosa.",
+        date: "Marzo 6, 2022",
+        imgPath: "../images/perro.png",
+        link: "https://www.google.com/",
+    },
+    {
+        title: "Se realizó campaña 'No me dejes en la playa.'",
+        content: "Con la ayuda de varios voluntarios, logramos conseguir recolectar más de 42 kilos de botellas de plástico y tapitas",
+        date: "Febrero 18, 2022",
+        imgPath: "../images/botellas_limpias.png",
+        link: "https://www.google.com/",
+    },
+    {
+        title: "El taller “Aprende a segregar tu basura” ¡Fue un éxito!.",
+        content: "Varios padres de familia se acercaron con sus pequeños para enseñarles la importancia de reciclar.",
+        date: "Febrero 22, 2022",
+        imgPath: "../images/ninos.png",
+        link: "https://www.google.com/",
+    },
+    {
+        title: "Los domingos son de 'Visítame para salir a pasear'.",
+        content: "Acércate todos los domingos de 10am a 6pm para visitar a los peluditos y sacarlos a pasear.Tu tiempo es una donación muy valiosa.",
+        date: "Marzo 6, 2022",
+        imgPath: "../images/perro.png",
+        link: "https://www.google.com/",
+    },
+];
+
+

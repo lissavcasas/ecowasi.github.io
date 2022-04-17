@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+}
+
+/* NAVBAR  */
+
+.bg-verde {
+    background-color: #5AC734;
+}
+
+.navbar {
+    transition: all .2s ease-in-out;
+    transition-property: background-color, color;
+    z-index: 1030;
+}
+
+.bg-white {
+    background-color: #fff !important;
+}
+
+.navbar {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0.25rem 0;
+    position: relative;
+}
+
+.navbar-light .navbar-brand,
+.navbar-light .navbar-brand:focus,
+.navbar-light .navbar-brand:hover {
+    color: #5AC734;
+}
+
+.navbar-brand {
+    font-weight: 600;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    margin-right: 0;
+    padding-bottom: .15rem;
+    padding-top: .15rem;
+    white-space: nowrap;
+}
+
+.navbar-brand-img {
+    margin: 0 auto;
+}
+
+.nav-item {
+    padding: 0.5rem;
+}
+
+a {
+    color: #5AC734;
+    text-decoration: none;
+}
+
+.navbar-light .navbar-toggler {
+    border-color: transparent;
+    color: #506690;
+}
+
+.navbar-toggler-icon {
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: inline-block;
+    height: 1.5em;
+    vertical-align: middle;
+    width: 1.5em;
+}
+
+.navbar-toggler {
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: .375rem;
+    font-size: 1.1875rem;
+    line-height: 1;
+    padding: .25rem .75rem;
+    transition: box-shadow .15s ease-in-out;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #5AC734;
+    border-color: #5AC734;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open>.dropdown-toggle.btn-primary {
+    color: #fff;
+    background-color: #4AA42B;
+    border-color: #4AA42B;
+}
+
+.btn-group-sm>.btn,
+.btn-sm {
+    border-radius: .375rem;
+    font-size: 1.0625rem;
+    padding: .5625rem 1rem;
+}
+
+.hidden {
+    display: none;
+}
+
+/* QUIERO PARTICIPAR */
+
+.p-25 {
+    padding: 2.5rem 0;
+}
+
+.p-50 {
+    padding: 5.0rem 0;
+}
+
+.bg-verde-agua {
+    background-color: #F4FEF8;
+}
+
+.rd-15 {
+    border-radius: 15px;
+}
+
+.card-ti {
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 38px;
+    color: #639C4F;
+}
+
+
+.card-text {
+    padding: 0.5rem;
+    font-weight: 500;
+    font-size: 1.0rem;
+    text-align: center;
+}
+
+/* TEXTOS */
+
+.my-title {
+    font-weight: bold;
+    font-size: 1.8rem;
+    text-align: center;
+    letter-spacing: -0.14px;
+    line-height: 30px;
+    margin: 40px 0;
+}
+
+.subtitle {
+    font-weight: 600;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: -0.14px;
+    line-height: 30px;
+    margin: 40px 0;
+}
+
+
+.text {
+    font-size: 18px;
+    letter-spacing: -0.14px;
+    line-height: 30px;
+    margin: 40px 0;
+}
+
+/* MEDIA QUERIES */
+
+@media (min-width: 1200px) {
+
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl {
+        max-width: 960px;
+    }
+}
+
+/*COLLAGE*/
+
+.image {
+    position: relative;
+    width: 100%;
+    overflow: hidden
+}
+
+.image .overlay {
+    position: absolute;
+    bottom: 0;
+    padding-left: 25px;
+    padding-top: 15px;
+    width: 100%;
+    color: white;
+    font-size: 20px;
+    z-index: 5
+}
+
+.image .overlay::before {
+    content: "";
+    background: rgb(0, 0, 0);
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    position: absolute;
+    left: 0;
+    bottom: -150px;
+    z-index: -2;
+    opacity: 0.5;
+    transition: all 0.3s ease-out
+}
+
+.image:hover .overlay {
+    color: black
+}
+
+.overlay .h4 {
+    color: white;
+}
+
+.image:hover .overlay::before {
+    bottom: 0px
+}
+
+.amount {
+    font-size: 15px
+}
+
+.textmuted {
+    color: #f8f8f8;
+    font-weight: 200;
+    font-size: 15px;
+}
+
+.fa-star,
+.fa-star-half-alt {
+    color: white;
+    font-size: 10px;
+    margin: 0 1px
+}
+
+.review {
+    font-size: 12px;
+    font-weight: 200
+}
