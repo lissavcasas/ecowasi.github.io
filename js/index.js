@@ -7,7 +7,7 @@ let contador = 0;
 const cargarCarrusel = () => {
     contador++;
     if (contador > 3) contador = 1;
-    carrusel.setAttribute("src", "../images/banner" + contador + ".png");
+    carrusel.setAttribute("src", "images/banner" + contador + ".png");
     carrusel.style.filter = "brightness(0.6)";
     carrusel.style.backgroundColor = "rgba(0, 0, 0, 0.8)";
     carrusel.style.transition = "all 1s";
